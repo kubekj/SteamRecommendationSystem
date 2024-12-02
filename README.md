@@ -4,7 +4,7 @@ A collaborative filtering recommendation system for Steam games that uses K-mean
 ## Project Structure (Only Relevant Files)
 
 ```
-├── data/ # Raw data files from Kaggle
+├── data/                            # Raw data files from Kaggle
 │   ├── games.csv                    # Game information
 │   ├── games_metadata.json          # Game metadata
 │   ├── games_metadata_fixed.json    # Fixed metadata
@@ -12,17 +12,17 @@ A collaborative filtering recommendation system for Steam games that uses K-mean
 │   ├── recommendations.csv          # User recommendations
 │   └── users.csv                    # User information
 │
-├── processed_data/ # Processed datasets
+├── processed_data/                     # Processed datasets
 │   ├── processed_games.csv             # Filtered games data
 │   ├── processed_metadata.json         # Filtered metadata
 │   └── processed_recommendations.csv   # Filtered recommendations
 │
-├── scripts/ # Core implementation files
+├── scripts/                       # Core implementation files
 │   ├── fix_metadata_json.py       # Metadata cleaning script
 │   ├── kmeans_recommender.py      # K-means clustering implementation
 │   ├── preprocess_data.py         # Data preprocessing pipeline
 │
-| # Jupyter notebooks for analysis
+|                                   # Jupyter notebooks for analysis
 ├── clustering.ipynb                # Clustering analysis
 ├── data_exploration.ipynb          # Initial data exploration
 └── data_visualisation.ipynb        # Initial data visualisation
